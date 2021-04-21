@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WELCOME</title>
+
+    <link rel="stylesheet" href="../static/css/index_main.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bar_body1 {
+            list-style-type: none;
+            height: 710px;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: darksalmon;
+        }
+
+        .foot_bg1 {
+            width: 100%;
+            height: 80px;
+            background-color: #08243e;
+            text-align: center;
+
+        }
+
+        .bar_li1 .bar_a1 {
+            margin-top: 18px;
+            display: inline-block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            padding: 20px 20px;
+        }
+
+        .bar_li1 .bar_a1:hover {
+            color: dimgray;
+        }
+
+        .bar_li1 {
+            display: inline-block;
+        }
+
+        .bar_a_left1 {
+            margin-top: 80px;
+            margin-bottom: 50px;
+            display: inline-block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 50px;
+
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div style="height: 150px;width: 100%">
+        <p class="database_font1">DATA</p>
+        <p class="database_font2">BASE</p>
+    </div>
+    <ul class="bar_body1">
+        <div>
+            <div align="center">
+                <li class="bar_li1"><p class="bar_a_left1">Welcom Service Design</p></li>
+            </div>
+            <div align="center">
+                <li class="bar_li1"><a class="bar_a1" href="BrowsList.html">Browse</a></li>
+            </div>
+            <div align="center">
+                <li class="bar_li1"><a class="bar_a1" href="search.html">Searcch</a></li>
+            </div>
+            <div align="center">
+                <li class="bar_li1"><a class="bar_a1" href="AddNew.html">Add New </a></li>
+            </div>
+            <div align="center">
+                <li class="bar_li1"><a class="bar_a1" href="list.html">AllList</a></li>
+            </div>
+        </div>
+    </ul>
+</div>
+
+
+<footer class="foot_con">
+    <div align="center">
+
+    </div>
+    <div class="foot_bg1">
+        <p class="foot_com">Design By Shini</p>
+    </div>
+
+</footer>
+</body>
+</html>
